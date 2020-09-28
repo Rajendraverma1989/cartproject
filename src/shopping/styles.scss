@@ -1,0 +1,14 @@
+.container{
+    background: #f0f2f5;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    
+    .seperator{
+        width: 1px;
+        background: #aaaaaa;
+        top: 0;
+        bottom: 0;
+    }
+    
+}   

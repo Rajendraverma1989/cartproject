@@ -1,0 +1,19 @@
+.filter{
+    height: 100%;
+    width: 250px;
+    min-width: 250px;
+    margin-top: 120px;
+
+    .input-range {
+        height: 1rem;
+        position: relative;
+        width: 82%;
+        margin-left: 20px;
+    }
+    .pricetext{
+        text-align: center;
+    }
+    .buttonIcon{
+        text-align: center;
+    }
+}   

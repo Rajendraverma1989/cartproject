@@ -1,0 +1,21 @@
+.sortData {
+display: flex;
+margin-left: 10px;
+width: 100%;
+
+.sortBy {
+    font-weight: bold;
+}
+
+.sortLink {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 15px;
+
+    &:hover {
+        color: #3f51b5;
+        text-decoration: underline;
+      }
+}
+
+}
