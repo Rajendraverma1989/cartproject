@@ -8,7 +8,6 @@ import { ReactComponent as Search } from '../assets/search.svg';
  class Header extends React.Component {
 
      render() {
-         console.log('cart item:::', this.state)
     return(
             <nav className="nav-wrapper">
                 <div className="icon">
