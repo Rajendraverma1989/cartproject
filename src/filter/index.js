@@ -34,8 +34,7 @@ class FilterPorxy extends React.Component {
           minValue={500}
           formatLabel={value => `₹${value}`}
           value={this.state.value}
-          onChange={value => this.setState({ value: value })}
-          onChangeComplete={value => console.log(value)} />
+          onChange={value => this.setState({ value: value })}/>
           <p className={'pricetext'}> Price</p>
           <div className={'buttonIcon'}>
            <Button
