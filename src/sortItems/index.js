@@ -1,15 +1,10 @@
 import React from 'react';
 import "./styles.scss";
-import data from '../shopping/data.json';
 import { connect } from 'react-redux';
 import { setCurrentItems } from '../redux/sortItem/sortItem-action';
 
 
 class SortPorxy extends React.Component {
-
-constructor(){
-    super();
-}
 
 highToLow = () => {
     let sortArray = [...this.props.items].sort(this.compareHighToLow);

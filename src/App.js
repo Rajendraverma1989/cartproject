@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Switch, Route, Redirect} from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Header from './Header/header';
 import Shopping from './shopping';
 import { ShoppingCart } from './ShoppingCart'

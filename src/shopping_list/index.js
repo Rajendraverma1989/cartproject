@@ -32,7 +32,6 @@ componentDidMount() {
 
 
   handleClick= (id) => {     
-    let cart = this.props.cartItem || {};
     let allItems = this.props.items;
     let addedItem =  allItems.find(item=> item.id === id);
     const disPrice = this.calDiscount(addedItem);
@@ -51,7 +50,7 @@ componentDidMount() {
                     
                       this.props.items && this.props.items.map( (item, i) => {                
                             return <div key={i} className='list'>
-                                      <img src={require(`../assets/${item.name}.png`)} height={200} width={200}></img>
+                                      <img src={require(`../assets/${item.name}.png`)} height={200} width={200} alt='abc'></img>
                                       <div className={'name'}> {item.diplayName}</div>
                                       <div className={'priceList'}> 
                                         <div className={'disPrice'}>{this.calDiscount(item)}</div>

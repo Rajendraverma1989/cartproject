@@ -63,7 +63,7 @@ class ShoppingCartPorxy extends React.Component {
                {
                     this.state.cartItem && this.state.cartItem.map( (item, i) => {                
                           return <div key={i} className='list'>
-                                    <img src={require(`../assets/${item.name}.png`)} height={100} width={100}></img>
+                                    <img src={require(`../assets/${item.name}.png`)} height={100} width={100} alt='abc'></img>
                                     <div>
                                         <div className={'name'}> {item.diplayName}</div>
                                         <div className={'priceList'}> 

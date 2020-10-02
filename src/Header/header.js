@@ -4,7 +4,6 @@ import './styles.scss';
 import { ReactComponent as Star } from '../assets/star.svg';
 import { ReactComponent as Cart } from '../assets/shoping_cart.svg';
 import { ReactComponent as Search } from '../assets/search.svg';
-import { connect } from 'react-redux';
 
  class Header extends React.Component {
 
@@ -25,11 +24,5 @@ import { connect } from 'react-redux';
     )
 }
  }
-
-
-
-const mapStateToProps = state => ({
-    cartItem: state.cartItem.cartItem,
-  });
 
 export default Header;

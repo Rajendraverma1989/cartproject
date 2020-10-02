@@ -5,9 +5,6 @@ import { Filter } from '../filter';
 
 class Shopping extends React.Component {
 
-constructor(){
-    super()
-}
 
     render() {
 return(
